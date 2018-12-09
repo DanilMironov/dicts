@@ -71,4 +71,7 @@ class BinaryArray:
         self._data.clear()
 
     def copy(self):
-        return self._data.copy()
+        new_data = self._data.copy()
+        dic = BinaryArray()
+        dic._data = new_data
+        return dic

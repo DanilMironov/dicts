@@ -46,4 +46,6 @@ class LinearArray:
         self._data.clear()
 
     def copy(self):
-        return self._data.copy()
+        dic = LinearArray()
+        dic._data = self._data.copy()
+        return dic
