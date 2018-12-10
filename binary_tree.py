@@ -44,13 +44,9 @@ class BinaryTree:
                         curr_node = curr_node.left
 
     def remove(self, key):
-        # if root is None:
-        #     return None
-        # if key < root.key:
-        #     self.remove(root.left, key)
-        # elif key > root.key:
-        #     self.remove(root.right, key)
         root = self.find(key)
+        if root is None:
+            raise Exception("This key doesn't exist")
         if root.left is None and root.right is None:  # если удаляемый элемент это лист
             if root.parent.left == root:
                 root.parent.left = None
