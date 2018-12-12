@@ -56,3 +56,6 @@ class TreeDict:
                     units.append(unit.left)
             except IndexError:
                 return keys
+
+    def pop(self, key):
+        self._tree.remove(key)
