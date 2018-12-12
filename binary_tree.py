@@ -45,6 +45,7 @@ class BinaryTree:
 
     def remove(self, key):
         root = self.find(key)
+        returned = root
         if root is None:
             raise Exception("This key doesn't exist")
         if root.left is None and root.right is None:  # если удаляемый элемент это лист
@@ -62,8 +63,7 @@ class BinaryTree:
                 else:
                     root.parent.right = root.right  # вот тут теперь все в порядке
             else:
-                left_most_element = self.get_leftmost(root.right)  # нашли самый левый
-                                                                   # и изменил поля root
+                left_most_element = self._get_leftmost(root.right)  # нашли самый левый и изменили поля root
                 if left_most_element.right is not None:
                     root.key = left_most_element.key
                     root.value = left_most_element.value
@@ -86,9 +86,10 @@ class BinaryTree:
                     root.parent.left = root.left
                 else:
                     root.parent.right = root.left
+        return returned
 
-    def get_leftmost(self, root: TreeUnit):
+    def _get_leftmost(self, root: TreeUnit):
         if root.left is None:
             return root
         else:
-            return self.get_leftmost(root.left)
+            return self._get_leftmost(root.left)

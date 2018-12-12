@@ -99,7 +99,7 @@ class TestBinaryTree(unittest.TestCase):
         tree.insert(19, 1)
         tree.insert(18, 1)
         tree.insert(17, 1)
-        result = tree.get_leftmost(tree.root)
+        result = tree._get_leftmost(tree.root)
         self.assertEqual(result.key, 17)
 
     def test_remove_with_leftmost(self):

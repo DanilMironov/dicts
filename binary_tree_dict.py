@@ -10,7 +10,7 @@ class TreeDict:
         self._tree.insert(key, value)
 
     def get(self, key):
-        return self._tree.find(key)[1]
+        return self._tree.find(key).value
 
     def items(self):
         units = deque()
@@ -21,16 +21,16 @@ class TreeDict:
                 unit = units.popleft()
                 items.append((unit.key, unit.value))
                 if unit.right is not None:
-                    items.append(unit.right)
+                    units.append(unit.right)
                 if unit.left is not None:
-                    items.append(unit.left)
+                    units.append(unit.left)
             except IndexError:
                 return items
 
     def values(self):
         units = deque()
         values = []
-        units.append(self._tree.root.value)
+        units.append(self._tree.root)
         while True:
             try:
                 unit = units.popleft()
@@ -45,7 +45,7 @@ class TreeDict:
     def keys(self):
         units = deque()
         keys = []
-        units.append(self._tree.root.key)
+        units.append(self._tree.root)
         while True:
             try:
                 unit = units.popleft()
@@ -58,4 +58,4 @@ class TreeDict:
                 return keys
 
     def pop(self, key):
-        self._tree.remove(key)
+        return self._tree.remove(key)
