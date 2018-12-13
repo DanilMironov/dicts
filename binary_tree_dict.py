@@ -58,4 +58,4 @@ class TreeDict:
                 return keys
 
     def pop(self, key):
-        return self._tree.remove(key)
+        return self._tree.remove(key).value
