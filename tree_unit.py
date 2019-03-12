@@ -5,3 +5,10 @@ class TreeUnit:
         self.parent = parent
         self.key = key
         self.value = value
+
+    def copy(self):
+        unit = TreeUnit(self.key, self.value)
+        unit.right = self.right
+        unit.left = self.left
+        unit.parent = self.parent
+        return unit

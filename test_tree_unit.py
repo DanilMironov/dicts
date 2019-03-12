@@ -7,7 +7,7 @@ class TestTreeUnit(unittest.TestCase):
         unit = TreeUnit('key', 'value')
         self.assertEqual(unit.key, 'key')
         self.assertEqual(unit.value, 'value')
-        
+
     def test_copy(self):
         unit = TreeUnit('key', 'value')
         copied_unit = unit.copy()

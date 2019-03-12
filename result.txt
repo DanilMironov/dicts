@@ -1,0 +1,120 @@
+Type: LinearArrayDict. Operation: add. Count of data: 300. Time: 0.00012458022576125786
+Type: LinearArrayDict. Operation: add. Count of data: 600. Time: 0.00024404027784622473
+Type: LinearArrayDict. Operation: add. Count of data: 1200. Time: 0.0004791970543640844
+Type: LinearArrayDict. Operation: add. Count of data: 2400. Time: 0.0011603081576526675
+Type: LinearArrayDict. Operation: add. Count of data: 4800. Time: 0.001971977289469731
+
+Type: LinearArrayDict. Operation: pop. Count of data: 300. Time: 0.0026574981423368982
+Type: LinearArrayDict. Operation: pop. Count of data: 600. Time: 0.0029635821247056527
+Type: LinearArrayDict. Operation: pop. Count of data: 1200. Time: 0.0029076506275093196
+Type: LinearArrayDict. Operation: pop. Count of data: 2400. Time: 0.0026642887726750076
+Type: LinearArrayDict. Operation: pop. Count of data: 4800. Time: 0.002628959574308922
+
+Type: LinearArrayDict. Operation: get. Count of data: 300. Time: 0.0010655529435557299
+Type: LinearArrayDict. Operation: get. Count of data: 600. Time: 0.0008764201281709205
+Type: LinearArrayDict. Operation: get. Count of data: 1200. Time: 0.0008452958724362247
+Type: LinearArrayDict. Operation: get. Count of data: 2400. Time: 0.0008375772106182922
+Type: LinearArrayDict. Operation: get. Count of data: 4800. Time: 0.000887556505916649
+
+Type: LinearArrayDict. Operation: items. Count of data: 300. Time: 9.664327815528395e-07
+Type: LinearArrayDict. Operation: items. Count of data: 600. Time: 9.792332156166594e-07
+Type: LinearArrayDict. Operation: items. Count of data: 1200. Time: 9.98433866641335e-07
+Type: LinearArrayDict. Operation: items. Count of data: 2400. Time: 1.3248449387504023e-06
+Type: LinearArrayDict. Operation: items. Count of data: 4800. Time: 1.0048340838864079e-06
+
+Type: TreeDict. Operation: add. Count of data: 300. Time: 5.312180189207538e-06
+Type: TreeDict. Operation: add. Count of data: 600. Time: 5.408183445467784e-06
+Type: TreeDict. Operation: add. Count of data: 1200. Time: 5.337781057903612e-06
+Type: TreeDict. Operation: add. Count of data: 2400. Time: 5.369782142992108e-06
+Type: TreeDict. Operation: add. Count of data: 4800. Time: 5.542588004772142e-06
+
+Type: TreeDict. Operation: pop. Count of data: 300. Time: 9.453120649993708e-06
+Type: TreeDict. Operation: pop. Count of data: 600. Time: 1.099557297067122e-05
+Type: TreeDict. Operation: pop. Count of data: 1200. Time: 9.478721518547672e-06
+Type: TreeDict. Operation: pop. Count of data: 2400. Time: 9.299515439522566e-06
+Type: TreeDict. Operation: pop. Count of data: 4800. Time: 9.363517610552208e-06
+
+Type: TreeDict. Operation: get. Count of data: 300. Time: 3.302512018876769e-06
+Type: TreeDict. Operation: get. Count of data: 600. Time: 3.2065087640376076e-06
+Type: TreeDict. Operation: get. Count of data: 1200. Time: 3.2577105005771044e-06
+Type: TreeDict. Operation: get. Count of data: 2400. Time: 3.276911151885997e-06
+Type: TreeDict. Operation: get. Count of data: 4800. Time: 4.08973872254137e-06
+
+Type: TreeDict. Operation: items. Count of data: 300. Time: 0.05194528838418222
+Type: TreeDict. Operation: items. Count of data: 600. Time: 0.053029427558182365
+Type: TreeDict. Operation: items. Count of data: 1200. Time: 0.059260160504643694
+Type: TreeDict. Operation: items. Count of data: 2400. Time: 0.06108844011988822
+Type: TreeDict. Operation: items. Count of data: 4800. Time: 0.06918209705673065
+
+Type: BalancedTreeDict. Operation: add. Count of data: 300. Time: 3.8151694105295065e-05
+Type: BalancedTreeDict. Operation: add. Count of data: 600. Time: 1.619254925230962e-05
+Type: BalancedTreeDict. Operation: add. Count of data: 1200. Time: 3.1725876141592834e-05
+Type: BalancedTreeDict. Operation: add. Count of data: 2400. Time: 2.5895278367045193e-05
+Type: BalancedTreeDict. Operation: add. Count of data: 4800. Time: 2.37832067264776e-05
+
+Type: BalancedTreeDict. Operation: pop. Count of data: 300. Time: 5.010089942260265e-05
+Type: BalancedTreeDict. Operation: pop. Count of data: 600. Time: 8.377884177775741e-05
+Type: BalancedTreeDict. Operation: pop. Count of data: 1200. Time: 8.563490473619596e-05
+Type: BalancedTreeDict. Operation: pop. Count of data: 2400. Time: 4.8155233426427915e-05
+Type: BalancedTreeDict. Operation: pop. Count of data: 4800. Time: 4.725280281462574e-05
+
+Type: BalancedTreeDict. Operation: get. Count of data: 300. Time: 6.381016443697263e-06
+Type: BalancedTreeDict. Operation: get. Count of data: 600. Time: 6.3554155755696225e-06
+Type: BalancedTreeDict. Operation: get. Count of data: 1200. Time: 6.2786129717551376e-06
+Type: BalancedTreeDict. Operation: get. Count of data: 2400. Time: 6.387416660800227e-06
+Type: BalancedTreeDict. Operation: get. Count of data: 4800. Time: 6.470619483707196e-06
+
+Type: BalancedTreeDict. Operation: items. Count of data: 300. Time: 0.05727751405327467
+Type: BalancedTreeDict. Operation: items. Count of data: 600. Time: 0.06264949147075072
+Type: BalancedTreeDict. Operation: items. Count of data: 1200. Time: 0.0679183613908171
+Type: BalancedTreeDict. Operation: items. Count of data: 2400. Time: 0.06620522808133643
+Type: BalancedTreeDict. Operation: items. Count of data: 4800. Time: 0.07354432502350448
+
+Type: HashTableDict. Operation: add. Count of data: 300. Time: 4.313746321713552e-06
+Type: HashTableDict. Operation: add. Count of data: 600. Time: 4.371348276492881e-06
+Type: HashTableDict. Operation: add. Count of data: 1200. Time: 4.454551097694548e-06
+Type: HashTableDict. Operation: add. Count of data: 2400. Time: 7.603457908658129e-06
+Type: HashTableDict. Operation: add. Count of data: 4800. Time: 4.544154137704481e-06
+
+Type: HashTableDict. Operation: pop. Count of data: 300. Time: 5.190576064535435e-06
+Type: HashTableDict. Operation: pop. Count of data: 600. Time: 5.248178018462113e-06
+Type: HashTableDict. Operation: pop. Count of data: 1200. Time: 5.561788655370492e-06
+Type: HashTableDict. Operation: pop. Count of data: 2400. Time: 5.644991479698547e-06
+Type: HashTableDict. Operation: pop. Count of data: 4800. Time: 2.2624767430841076e-05
+
+Type: HashTableDict. Operation: get. Count of data: 300. Time: 4.108939374702913e-06
+Type: HashTableDict. Operation: get. Count of data: 600. Time: 4.1729415454483385e-06
+Type: HashTableDict. Operation: get. Count of data: 1200. Time: 4.140940460786169e-06
+Type: HashTableDict. Operation: get. Count of data: 2400. Time: 4.102539158736818e-06
+Type: HashTableDict. Operation: get. Count of data: 4800. Time: 4.140940461354603e-06
+
+Type: HashTableDict. Operation: items. Count of data: 300. Time: 0.055000905630719785
+Type: HashTableDict. Operation: items. Count of data: 600. Time: 0.05316223206291482
+Type: HashTableDict. Operation: items. Count of data: 1200. Time: 0.05426312700527006
+Type: HashTableDict. Operation: items. Count of data: 2400. Time: 0.05708000975393105
+Type: HashTableDict. Operation: items. Count of data: 4800. Time: 0.06310563494313498
+
+Type: StandardDict. Operation: add. Count of data: 300. Time: 4.992169328943419e-07
+Type: StandardDict. Operation: add. Count of data: 600. Time: 6.976236630862331e-07
+Type: StandardDict. Operation: add. Count of data: 1200. Time: 9.088308274840529e-07
+Type: StandardDict. Operation: add. Count of data: 2400. Time: 5.568188873894542e-07
+Type: StandardDict. Operation: add. Count of data: 4800. Time: 5.312180195460315e-07
+
+Type: StandardDict. Operation: pop. Count of data: 300. Time: 7.872267030961666e-07
+Type: StandardDict. Operation: pop. Count of data: 600. Time: 7.808264859932024e-07
+Type: StandardDict. Operation: pop. Count of data: 1200. Time: 8.000271367336609e-07
+Type: StandardDict. Operation: pop. Count of data: 2400. Time: 7.808264854247682e-07
+Type: StandardDict. Operation: pop. Count of data: 4800. Time: 7.808264859932024e-07
+
+Type: StandardDict. Operation: get. Count of data: 300. Time: 4.864164998252818e-07
+Type: StandardDict. Operation: get. Count of data: 600. Time: 4.864164986884134e-07
+Type: StandardDict. Operation: get. Count of data: 1200. Time: 4.5441541374202643e-07
+Type: StandardDict. Operation: get. Count of data: 2400. Time: 4.480151966390622e-07
+Type: StandardDict. Operation: get. Count of data: 4800. Time: 4.4161498010453213e-07
+
+Type: StandardDict. Operation: items. Count of data: 300. Time: 6.144208407476981e-07
+Type: StandardDict. Operation: items. Count of data: 600. Time: 6.528221433654835e-07
+Type: StandardDict. Operation: items. Count of data: 1200. Time: 6.016204065417696e-07
+Type: StandardDict. Operation: items. Count of data: 2400. Time: 6.27221276090495e-07
+Type: StandardDict. Operation: items. Count of data: 4800. Time: 6.400217097279892e-07
+
