@@ -4,7 +4,8 @@ from timeit import default_timer
 class Analizator:
     def __init__(self, dictionary, data: list, dict_type: str,
                  operation: str, is_standard=False):
-        self.dict = dictionary
+        self.dict = dictionary()
+        self.object_of_dictionary = dictionary
         self.data = data
         self.count_of_data = 300
         self.result = {}
@@ -13,10 +14,12 @@ class Analizator:
         self.dict_type = dict_type
 
     def dictionary_init(self):
+        self.dict = self.object_of_dictionary()
         for i in range(self.count_of_data):
             self.dict.add(self.data[i][:-1], 1)
 
     def standard_dict_init(self):
+        self.dict = self.object_of_dictionary()
         for i in range(self.count_of_data):
             self.dict[self.data[i][:-1]] = 1
 
